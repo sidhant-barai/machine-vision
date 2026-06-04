@@ -1,7 +1,7 @@
 Image Representation & Pixel-Point Processing
 
 ## 🎯 Objectives
-This lab introduces the fundamental concepts of digital image manipulation, matrix representations of coordinate systems, and pixel-level point operations. The goal was to manipulate spatial orientations and process basic geometric and color transformations without relying on high-level automated black-box functions.
+This repository introduces the fundamental concepts of digital image manipulation, matrix representations of coordinate systems, and pixel-level point operations. The goal was to manipulate spatial orientations and process basic geometric and color transformations without relying on high-level automated black-box functions.
 
 ## 🛠️ Implemented Tasks & Logic
 * **Matrix Reversals (`Flipping.mux` / `flipLtRt.mux`):** Implemented row and column scanning to mirror and flip image arrays spatially across horizontal and vertical axes.
