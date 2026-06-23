@@ -7,7 +7,7 @@ This project focuses on automated foreground segmentation and transient motion i
 * **Temporal Frame Differencing:** Developed a low-latency motion detection routine utilizing pixel-wise absolute differentiation ($|I_t - I_{t-1}|$) across sequential frames. Integrated dynamic gray-level threshold constraints to isolate transient foreground object masks.
 * **Adaptive Gaussian Mixture Modeling (GMM):** Implemented a robust multi-modal background subtraction framework using a mixture of Gaussians to model individual pixel variance over time. This approach adaptively learns background variations, establishing high resilience against illumination fluctuations and background micro-movements.
 * **Foreground Mask Generation & Post-Processing:** Configured binary matrix operations to output clean, high-contrast foreground isolation maps representing real-time target profiles.
-* **Video Stream Writing Pipelines:** Programmed automated data exporters to stream, compile, and encode output segmented pixel matrices into stable `.mp4` visualization sequences (`gmm_output.mp4` / `frame_difference_output.mp4`).
+* **Video Stream Writing Pipelines:** Programmed automated data exporters to stream, compile, and encode output segmented pixel matrices into stable `.mp4` visualization sequences.
 
 ---
 
