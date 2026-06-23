@@ -6,8 +6,8 @@ This project focuses on dense motion estimation, spatial feature tracking, and q
 ## 📐 Implemented Logic & Engineering Techniques
 * **Lucas-Kanade Optical Flow Extraction:** Implemented differential tracking algorithms utilizing a window-based optical flow structure to compute local pixel velocity arrays ($V_x, V_y$) across progressive video frames.
 * **Feature Consistency Constraints:** Integrated native corner landmark detection (including Harris feature evaluation methods) to automatically lock onto geometric anchor points on the target object, mitigating track drift over long durations.
-* **Dynamic Bounding Box Tracking:** Programmed a custom vector transposition function (`ShiftBbox`) to continuously translate a tracking bounding box using localized displacement vectors.
-* **Quantitative Accuracy Validation:** Integrated a ground-truth dataset matrix (`red_square_gt.mat`) to continuously evaluate tracking trajectory deviation, providing benchmarking metrics for system evaluation.
+* **Dynamic Bounding Box Tracking:** Programmed a custom vector transposition function to continuously translate a tracking bounding box using localized displacement vectors.
+* **Quantitative Accuracy Validation:** Integrated a ground-truth dataset matrix to continuously evaluate tracking trajectory deviation, providing benchmarking metrics for system evaluation.
 * **Velocity Vector Fields:** Mapped dense velocity flow fields across successive frames to isolate and visualize local structural movement distributions.
 
 ---
